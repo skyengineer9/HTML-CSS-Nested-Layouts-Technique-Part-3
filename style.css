@@ -1,0 +1,49 @@
+.profile-description {
+  width: 200px;
+  height: 350px;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.profile-titles {
+  margin-left: 10px;
+}
+
+.mutual-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.mutual-friends, img, .mutual-friend{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mutual-friends {
+  margin-top: 0px;
+}
+
+p.profile-title {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+button.profile-button {
+  background-color: rgb(9, 106, 216);
+  color: white;
+  border: none;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
